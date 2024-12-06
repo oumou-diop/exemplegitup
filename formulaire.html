@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>formulaire de vacances</title>
+    <style>
+        .form{
+
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: 50px 50px 50px;
+margin-left: 35%;
+margin-right: 35%;
+width: 500px;
+height: 500px;
+background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+  <form action=""method="post" class="form">
+    <div>
+        <label for="">NOM</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="">PRENOM</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="">DATE DE NAISSANCE</label>
+        <!-- <input type="datetime-local">permet ajouter heure a la  date  -->
+         <input type="datetime-local">
+    </div>
+    <br>
+     <div>
+        <label for="">AGE</label>
+        <input type="number">
+    </div>
+    <br>
+     <div>
+        <label for="">ADRESS EMAIL</label>
+        <input type="email">
+    </div>
+    <br>
+     <div>
+        <label for="">MOT DE PASSE</label>
+        <input type="password">
+    </div>
+    <br>
+     <div>
+        <label for="">COMPETENCE:</label>
+        <input type="checkbox">HTML 
+         <input type="checkbox">CSS
+          <input type="checkbox">BOOTSTRAP
+           <input type="checkbox">JAVA
+    </div>
+    <br>
+    <div>
+        <label for="">GENRE:</label>
+        <input type="radio" name="genre">MASCULIN
+        <input type="radio" name="genre">FEMININ
+    </div>
+    <br>
+    <label for="">COULEUR PREFEREE</label>
+    <input type="color">
+    <br>
+    <div>
+        <label for="">REMPLISSAGE</label>
+       0% <input type="range">100%
+    </div>
+    <br>
+    <div>
+        <label for="">SITUATION MATRIMONIALE</label>
+        <select name="" id="">
+            <option value="">MARIE</option>
+              <option value="">CELIBATAIRE</option>
+                <option value="">VEUF</option>
+                  <option value="">DIVORCE</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <button type="submit">ENREGISTRE</button>
+            <button type="reset">ANNULER</button>
+    </div>
+  </form>  
+</body>
+</html>
